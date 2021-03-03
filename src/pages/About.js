@@ -1,9 +1,15 @@
 import * as React from "react"
+import { Link } from 'gatsby'
 
-const About = () => {
+const about = () => {
     return (
-        <h1>About</h1>
+        <main>
+            <nav>
+                <Link to="/">Home</Link>
+            </nav>
+            <h1>About Page</h1>
+        </main>
     )
 }
 
-export default About
+export default about
